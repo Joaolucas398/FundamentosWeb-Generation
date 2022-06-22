@@ -1,0 +1,125 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face{
+    font-family: 'Playfair Display', serif;
+    src: url([https://fonts.googleapis.com/css2?family=Playfair+Display:ital@1&display=sw]);
+    
+}
+
+body{
+    background:  linear-gradient(black,white);
+    align-items: center;
+    width: 100vw;
+    
+    
+}
+
+.nav-container{
+    display: flex;
+    flex-flow: row ;
+    justify-content: space-around;
+    align-items: center;
+    width: 100vw;
+    height: 65px;
+    left: 60px;
+    top: 0px; 
+    background: #1E1B26;    
+ 
+    
+}
+
+#logo{
+    display: flex;
+    flex-flow: row;
+    justify-content: start;
+    align-items: center;
+}
+
+#logo img{
+
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    
+
+    
+}
+
+#menu li{
+    display: inline;
+    padding: 15px;
+    
+    
+}
+
+
+
+#menu a{
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+ 
+
+}
+
+#menu li a:hover{
+    color: grey;
+}
+
+.center{
+    text-align: center;
+}
+
+
+.icons{
+    display: flex;
+    flex-flow: row ;
+    justify-content: center;
+    align-items: center;  
+    
+
+}
+.icons a{
+    margin: 20px;
+}
+
+.container {
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+    align-items: center;
+    text-align: start;
+    margin-bottom: 80px;
+    margin: 5px;
+
+
+}
+
+.fontetexto{
+    font-size: 18px;
+}
+
+.textcenterfont{
+    text-decoration: none;
+    font-size: 18px;
+    text-align: center;
+    color: white;
+}
+
+footer{
+    display: flex;
+    flex-flow: row ;
+    justify-content: space-around;
+    align-items: center;
+    width: 1263;
+    height: 65px;
+    left: 60px;
+    top: 0px; 
+    background: #1E1B26;  
+    color: white; 
+
+}

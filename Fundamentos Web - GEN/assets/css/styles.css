@@ -1,0 +1,127 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background:  linear-gradient(black,white);
+    align-items: center;
+    width: 100vw;   /* Define que essa classe ocupa toda a largura da tela do navegado */
+   
+    
+}
+
+@font-face{
+font-family: 'Playfair Display', serif;
+src: url([https://fonts.googleapis.com/css2?family=Playfair+Display:ital@1&display=sw]);
+
+}
+
+:root{
+    --white-glass: #ffffff50;  /* Com uma cor branca com 50% de opacidade */
+}
+
+
+.nav-container{
+    display: flex;
+    flex-flow: row ;
+    justify-content: space-around;
+    align-items: center;
+    width: 100vw;
+    height: 65px;
+    left: 60px;
+    top: 0px; 
+    background: #1E1B26;    
+ 
+    
+}
+
+#logo{
+    display: flex;
+    flex-flow: row;
+    justify-content: start;
+    align-items: center;
+}
+
+#logo img{
+
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    
+
+    
+}
+
+.textcenterfont{
+    font-size: 18px;
+    text-align: center;
+    color: white;
+}
+
+
+
+#menu li{
+    display: inline;
+    padding: 15px;
+    
+    
+}
+
+
+
+#menu a{
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+
+}
+
+#menu li a:hover{
+    color: grey;
+}
+
+
+.container {
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+    align-items: center;
+    text-align: start;
+    margin: 10px;
+
+
+}
+
+.fontetexto{
+    font-size: 18px;
+    color: white;
+}
+
+#fotocriador{
+    border-radius: 50%;
+    width: 300px;
+    height: 300px;
+}
+
+.center{
+    text-align: center;
+}
+
+footer{
+    display: flex;
+    flex-flow: row ;
+    justify-content: space-around;
+    align-items: center;
+    width: 1263;
+    height: 65px;
+    left: 60px;
+    top: 0px; 
+    background: #1E1B26;  
+    color: white; 
+
+}
+
+
+

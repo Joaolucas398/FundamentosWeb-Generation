@@ -75,16 +75,16 @@ body{
 }
 
 
-.icons{
-    display: flex;
-    flex-flow: row ;
-    justify-content: center;
-    align-items: center;  
-    
 
-}
 .icons a{
     margin: 20px;
+    margin-top: 5px;
+    
+}
+
+.icons img{
+    width: 50px;
+
 }
 
 .container {
@@ -110,16 +110,21 @@ body{
     color: white;
 }
 
+form div{
+    margin-right: 50px;
+}
+
 footer{
     display: flex;
     flex-flow: row ;
-    justify-content: space-around;
+    justify-content: center;
+    flex-direction: column;
     align-items: center;
     width: 1263;
-    height: 65px;
+    height: 80px;
     left: 60px;
     top: 0px; 
     background: #1E1B26;  
-    color: white; 
+    color: white;
 
 }
